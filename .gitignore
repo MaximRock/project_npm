@@ -1,6 +1,7 @@
 node_modules/
-package-lock.json
+#package-lock.json
 vendor/
 /.giti*
 /.npm*
-node_npm_test/composer.lock
+node_npm_test/**/*.lock
+node_npm_test/**/package-lock.json
