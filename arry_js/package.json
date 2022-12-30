@@ -1,0 +1,19 @@
+{
+  "name": "arry_js",
+  "version": "0.0.1",
+  "description": "array methods in js",
+  "main": "arry_mixid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximRock/project_npm.git"
+  },
+  "author": "maxim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximRock/project_npm/issues"
+  },
+  "homepage": "https://github.com/MaximRock/project_npm#readme"
+}
