@@ -85,20 +85,31 @@ Artifactory - инструмент для хранения артефактов 
   ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/07.jpg)
 
 4. По аналогии, создаем удаленный:
+---
+
   ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/08.jpg)
 
 5. Виртуальный:
+---
+
   ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/09.jpg)
 
   При настройке виртуального репозитория добавим локальный и удаленный:
+  
+---
+
   ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/10.jpg)
 
 ### Настройка клиента
 ---
 1. Остаемся в веб-интерфейсе Artifactory. В правом верхнем углу кликаем по Welcome, admin и выбираем Set Me Up:
+---
+
   ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/11.jpg)
 
 2. В открывшемся окне выбираем «Package Type» Pypi и наш виртуальный репозиторий pypi. Вводим пароль для пользователя, под которым мы вошли в веб-интерфейс:
+---
+
   ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/12.jpg)
 
 3. Переходим на вкладку Install — мы должны увидеть текст для настройки клиента.
@@ -121,21 +132,3 @@ trusted-host = 192.168.101.100
   > pip install favicon
 
   Мы должны увидеть, что установка выполняется с нашего сервера Artifactory.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
