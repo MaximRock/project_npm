@@ -54,7 +54,7 @@ Artifactory - инструмент для хранения артефактов 
   Пока ничего не делаем. Переходим по адресу: https://jfrog.com/start-free/#hosted.
   Вводим свои данные для регистрации:
   
-  ![](https://speedmedia.jfrog.com/08612fe1-9391-4cf3-ac1a-6dd49c36b276/https://media.jfrog.com/wp-content/uploads/2021/12/02115454/bg-start-free-hero.png/mxw_2048,s_webp,f_auto)
+![Снимок экрана от 2023-01-03 17-27-00](https://user-images.githubusercontent.com/95434302/210376867-8b229227-b950-415a-a9f1-1a785dc72fac.png)
 
   Активируем систему:
   
