@@ -6,7 +6,7 @@ Artifactory - инструмент для хранения артефактов 
 1. Установка обновлений:
   > sudo apt apdate
 
-Если система чистая, стоит обновить установленные пакеты.
+   Если система чистая, стоит обновить установленные пакеты.
   > sudo apt upgrade
 
 2. Открываем порты 8081 и 8082:
@@ -48,43 +48,43 @@ Artifactory - инструмент для хранения артефактов 
 
 6. Открываем браузер:
   > http://\<\IP-server\>\:8082/ui/
-  ![] (https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/01.jpg)
+  ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/01.jpg)
 
   Пока ничего не делаем. Переходим по адресу: https://jfrog.com/start-free/#hosted.
   Вводим свои данные для регистрации:
-  ![] (https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/02.jpg)
+  ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/02.jpg)
 
   Активируем систему:
-  ![] (https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/03.jpg)
+  ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/03.jpg)
 
 ### Настройка проксирования пакетов Python через Artifactory.
 ---
 1. Настройка сервера.
-  ![] (https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/04.jpg)
+  ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/04.jpg)
 
 2. Создаем три репозитория - локальный, удаленный, виртуальный.
-  ![] (https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/05.jpg)
+  ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/05.jpg)
   
 3. Выбираем Pypi, задаем имя репозитория:
-  ![] (https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/06.jpg)
-  ![] (https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/07.jpg)
+  ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/06.jpg)
+  ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/07.jpg)
 
 4. По аналогии, создаем удаленный:
-  ![] (https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/08.jpg)
+  ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/08.jpg)
 
 5. Виртуальный:
-  ![] (https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/09.jpg)
+  ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/09.jpg)
 
   При настройке виртуального репозитория добавим локальный и удаленный:
-  ![] (https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/10.jpg)
+  ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/10.jpg)
 
 ### Настройка клиента
 ---
 1. Остаемся в веб-интерфейсе Artifactory. В правом верхнем углу кликаем по Welcome, admin и выбираем Set Me Up:
-  ![] (https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/11.jpg)
+  ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/11.jpg)
 
 2. В открывшемся окне выбираем «Package Type» Pypi и наш виртуальный репозиторий pypi. Вводим пароль для пользователя, под которым мы вошли в веб-интерфейс:
-  ![] (https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/12.jpg)
+  ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/12.jpg)
 
 3. Переходим на вкладку Install — мы должны увидеть текст для настройки клиента.
 
