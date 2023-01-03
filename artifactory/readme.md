@@ -48,13 +48,16 @@ Artifactory - инструмент для хранения артефактов 
 
 6. Открываем браузер:
   > http://\<\IP-server\>\:8082/ui/
+  
   ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/01.jpg)
 
   Пока ничего не делаем. Переходим по адресу: https://jfrog.com/start-free/#hosted.
   Вводим свои данные для регистрации:
+  
   ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/02.jpg)
 
   Активируем систему:
+  
   ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/03.jpg)
 
 ### Настройка проксирования пакетов Python через Artifactory.
