@@ -11,11 +11,13 @@ Artifactory - инструмент для хранения артефактов 
 
 2. Открываем порты 8081 и 8082:
   > iptables -I INPUT -p tcp --dport 8081 -j ACCEPT
+
   > iptables -I INPUT -p tcp --dport 8082 -j ACCEPT
 
 
 3. Сохраняем правила:
   > sudo apt install iptables-persistent
+
   > sudo netfilter-persistent save
 
 4. Установка пакетов для работы artifactory:
