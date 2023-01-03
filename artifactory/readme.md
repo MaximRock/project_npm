@@ -48,28 +48,40 @@ Artifactory - инструмент для хранения артефактов 
 
 6. Открываем браузер:
   > http://\<\IP-server\>\:8082/ui/
+---
   
   ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/01.jpg)
 
   Пока ничего не делаем. Переходим по адресу: https://jfrog.com/start-free/#hosted.
   Вводим свои данные для регистрации:
   
+ ---
 ![Снимок экрана от 2023-01-03 17-27-00](https://user-images.githubusercontent.com/95434302/210376867-8b229227-b950-415a-a9f1-1a785dc72fac.png)
 
   Активируем систему:
-  
+ 
+ ---
   ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/03.jpg)
 
 ### Настройка проксирования пакетов Python через Artifactory.
 ---
 1. Настройка сервера.
+---
+
   ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/04.jpg)
 
 2. Создаем три репозитория - локальный, удаленный, виртуальный.
+---
+
   ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/05.jpg)
   
 3. Выбираем Pypi, задаем имя репозитория:
+---
+
   ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/06.jpg)
+  
+---
+
   ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/07.jpg)
 
 4. По аналогии, создаем удаленный:
