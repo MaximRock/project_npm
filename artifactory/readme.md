@@ -133,7 +133,7 @@ Artifactory - инструмент для хранения артефактов 
 
     >[global] 
     >
-    >index-url = http://admin:\<password\>@192.168.101.100:8081/artifactory/api/pypi/pipy/simple
+    >index-url = http://admin: \<password\>@192.168.101.100:8081/artifactory/api/pypi/pipy/simple
     >
     >trusted-host = 192.168.101.100
     
