@@ -128,7 +128,8 @@ Artifactory - инструмент для хранения артефактов 
       vi ~/.pip/pip.conf
 
 5. Добавляем текст с вкладки Install (п. 3):
-  > [global] //
+
+  > [global] 
     index-url = http://admin:APLdxDAPCHVrL2sGfuh1N58fk8@192.168.101.100:8081/artifactory/api/pypi/pipy/simple
     trusted-host = 192.168.101.100
     
