@@ -116,7 +116,7 @@ Artifactory - инструмент для хранения артефактов 
 2. В открывшемся окне выбираем «Package Type» Pypi и наш виртуальный репозиторий pypi. Вводим пароль для пользователя, под которым мы вошли в веб-интерфейс:
 ---
 
-  ![](https://www.dmosk.ru/img/miniinstruktions/artifactory-ubuntu/12.jpg)
+  ![Снимок экрана](https://user-images.githubusercontent.com/95434302/210580439-c932ae36-33cb-4e11-b34b-7a80f5d642e3.png)
 
 3. Переходим на вкладку Install — мы должны увидеть текст для настройки клиента.
 
@@ -129,8 +129,8 @@ Artifactory - инструмент для хранения артефактов 
 
 5. Добавляем текст с вкладки Install (п. 3):
   > [global]
-index-url = http://admin:APLdxDAPCHVrL2sGfuh1N58fk8@192.168.101.100:8081/artifactory/api/pypi/pipy/simple
-trusted-host = 192.168.101.100
+    index-url = http://admin:APLdxDAPCHVrL2sGfuh1N58fk8@192.168.101.100:8081/artifactory/api/pypi/pipy/simple
+    trusted-host = 192.168.101.100
   * index-url - указывает на хранилище пакетов Python, откуда pip должен выполнять установку.
   * 192.168.101.100 - IP-адрес нашего сервера Artifactory.
   * trusted-host - позволяет перечислить серверы, которым будет доверять наш клиент. Чтобы не указывать данную настройку, наш сервер должен отвечать по https.
