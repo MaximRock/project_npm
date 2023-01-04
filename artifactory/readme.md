@@ -131,9 +131,9 @@ Artifactory - инструмент для хранения артефактов 
 
   > [global] 
  
-  index-url = http://admin:<password>@192.168.101.100:8081/artifactory/api/pypi/pipy/simple
+    index-url = http://admin:<password>@192.168.101.100:8081/artifactory/api/pypi/pipy/simple
   
-  trusted-host = 192.168.101.100
+    trusted-host = 192.168.101.100
     
   * index-url - указывает на хранилище пакетов Python, откуда pip должен выполнять установку.
   * 192.168.101.100 - IP-адрес нашего сервера Artifactory.
