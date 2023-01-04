@@ -124,15 +124,18 @@ Artifactory - инструмент для хранения артефактов 
 
     > vim /etc/pip.conf
   
-    4.1 Если нужно настроить pip только для конкретного пользователя, вводим:
-        > mkdir ~/.pip
-        > 
-        > vi ~/.pip/pip.conf
+4.1 Если нужно настроить pip только для конкретного пользователя, вводим:
+
+    > mkdir ~/.pip
+    > 
+    > vi ~/.pip/pip.conf
 
 5. Добавляем текст с вкладки Install (п. 3):
 
     >[global] 
+    >
     >index-url = http://admin:<password>@192.168.101.100:8081/artifactory/api/pypi/pipy/simple
+    >
     >trusted-host = 192.168.101.100
     
   * index-url - указывает на хранилище пакетов Python, откуда pip должен выполнять установку.
