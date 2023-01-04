@@ -130,8 +130,7 @@ Artifactory - инструмент для хранения артефактов 
 5. Добавляем текст с вкладки Install (п. 3):
 
   > [global] 
-  > 
-  > index-url = http://admin:APLdxDAPCHVrL2sGfuh1N58fk8@192.168.101.100:8081/artifactory/api/pypi/pipy/simple
+  > index-url = http://admin:<password>@192.168.101.100:8081/artifactory/api/pypi/pipy/simple
   > trusted-host = 192.168.101.100
     
   * index-url - указывает на хранилище пакетов Python, откуда pip должен выполнять установку.
