@@ -122,15 +122,16 @@ Artifactory - инструмент для хранения артефактов 
 
 4. Теперь переходим на компьютер, где будем настраивать клиент. Открываем конфигурационный файл для pip:
   > vim /etc/pip.conf
+  
     >> Если нужно настроить pip только для конкретного пользователя, вводим:
        mkdir ~/.pip
        vi ~/.pip/pip.conf
 
 5. Добавляем текст с вкладки Install (п. 3):
 
-    [global] 
-    index-url = http://admin:<password>@192.168.101.100:8081/artifactory/api/pypi/pipy/simple
-    trusted-host = 192.168.101.100
+    >[global] 
+    >index-url = http://admin:<password>@192.168.101.100:8081/artifactory/api/pypi/pipy/simple
+    >trusted-host = 192.168.101.100
     
   * index-url - указывает на хранилище пакетов Python, откуда pip должен выполнять установку.
   * 192.168.101.100 - IP-адрес нашего сервера Artifactory.
