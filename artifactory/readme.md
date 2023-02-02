@@ -21,13 +21,13 @@ Artifactory - инструмент для хранения артефактов 
   > sudo netfilter-persistent save
 
 4. Установка пакетов для работы artifactory:
-  > sudo install jq
+  > sudo apt install jq
 
-  > sudo install net-tools
+  > sudo apt install net-tools
 
-  > sudo install libllvm9
+  > sudo apt install libllvm9
 
-  > sudo install socat
+  > sudo apt install socat
 
   * jq - утилита для обработки JSON в командной строке.
   * net-tools - набор утилит для работы с сетью.
